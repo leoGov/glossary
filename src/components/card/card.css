@@ -1,0 +1,23 @@
+.card {
+    flex-direction: column;
+    border-radius: 16px;
+    padding: 6px 8px;
+    background-color: #FFDEAD;
+    min-height: 220px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: background-color 0.5s, color 0.5s, transform 0.5s; 
+}
+
+.card:hover {
+    background-color: #696969; 
+    color: #fff;
+    cursor: default;
+}
+
+.card-header {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+
+
