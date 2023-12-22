@@ -1,13 +1,12 @@
 .card-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 18px;
 }
 
 @media screen and (max-width: 940px) {
     .card-list {
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        grid-template-columns: repeat(5, 1fr); /* Изменено на фиксированное количество столбцов для экранов с шириной до 940px */
     }
 }
 
