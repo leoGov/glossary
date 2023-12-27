@@ -3,89 +3,88 @@ const mindMap = {
       {
         "id": "1",
         "position": {"x": 0, "y": 0},
-        "data": {"label": "Фронтенд"},
+        "data": {"label": "Веб-приложение"},
         "type": "input"
       },
       {
         "id": "2",
-        "position": {"x": -300, "y": 100},
-        "data": {"label": "Фреймворк"}
+        "position": {"x": 0, "y": 80},
+        "data": {"label": "Бандлер"},
+        "type": ""
       },
       {
         "id": "3",
-        "position": {"x": 300, "y": 100},
-        "data": {"label": "Инструмент сборки"},
+        "position": {"x": -300, "y": 180},
+        "data": {"label": "Webpack"},
+        "type": ""
       },
       {
         "id": "4",
-        "position": {"x": 200, "y": 200},
-        "data": {"label": "Webpack"},
-        "type": "output"
+        "position": {"x": 0, "y": 180},
+        "data": {"label": "Parcel"},
+        "type": ""
       },
       {
         "id": "5",
-        "position": {"x": 400, "y": 200},
-        "data": {"label": "Babel"},
-        "type": "output"
+        "position": {"x": 300, "y": 180},
+        "data": {"label": "Vite"},
+        "type": ""
       },
       {
         "id": "6",
-        "position": {"x": -580, "y": 200},
-        "data": {"label": "React"},
+        "position": {"x": -550, "y": 300},
+        "data": {"label": "HMR"},
+        "type": "output"
       },
       {
         "id": "7",
-        "position": {"x": -300, "y": 200},
-        "data": {"label": "Vue"},
+        "position": {"x": -390, "y": 300},
+        "data": {"label": "Plugin System"},
+        "type": "output"
       },
       {
         "id": "8",
-        "position": {"x": -20, "y": 200},
-        "data": {"label": "Angular"},
+        "position": {"x": -230, "y": 300},
+        "data": {"label": "DevServer"},
+        "type": "output"
       },
       {
         "id": "9",
-        "position": {"x": -900, "y": 300},
-        "data": {"label": "ReactDOM"},
+        "position": {"x": -180, "y": 400},
+        "data": {"label": "Zero-config"},
         "type": "output"
       },
       {
         "id": "10",
-        "position": {"x": -740, "y": 300},
-        "data": {"label": "JSX"},
+        "position": {"x": 0, "y": 340},
+        "data": {"label": "Automatic Asset Resolution"},
         "type": "output"
       },
       {
         "id": "11",
-        "position": {"x": -580, "y": 300},
-        "data": {"label": "Redux"},
+        "position": {"x": 180, "y": 400},
+        "data": {"label": "Broad Language Support"},
         "type": "output"
       },
       {
         "id": "12",
-        "position": {"x": -400, "y": 350},
-        "data": {"label": "Template"},
+        "position": {"x": 460, "y": 320},
+        "data": {"label": "First Development Server"},
         "type": "output"
       },
       {
         "id": "13",
-        "position": {"x": -300, "y": 420},
-        "data": {"label": "Script"},
+        "position": {"x": 300, "y": 300},
+        "data": {"label": "Plugin System"},
         "type": "output"
       },
       {
         "id": "14",
-        "position": {"x": -200, "y": 350},
-        "data": {"label": "Style"},
+        "position": {"x": 620, "y": 350},
+        "data": {"label": "Modern Development"},
         "type": "output"
       },
-      {
-        "id": "15",
-        "position": {"x": -20, "y": 300},
-        "data": {"label": "RxJS"},
-        "type": "output"
-      },
-  
+      
     ],
     "edges": [
       {
@@ -95,82 +94,76 @@ const mindMap = {
         "label": "Реализация"
       },
       {
-        "id": "1-3",
-        "source": "1",
+        "id": "2-3",
+        "source": "2",
         "target": "3",
         "label": "Реализация"
       },
       {
-        "id": "3-4",
-        "source": "3",
+        "id": "2-4",
+        "source": "2",
         "target": "4",
-        "label": "Выбор инструмента"
+        "label": "Реализация"
       },
       {
-        "id": "3-5",
-        "source": "3",
+        "id": "2-5",
+        "source": "2",
         "target": "5",
-        "label": "Выбор инструмента"
+        "label": "Реализация"
       },
       {
-        "id": "2-6",
-        "source": "2",
+        "id": "3-6",
+        "source": "3",
         "target": "6",
-        "label": "Используемые фреймворки"
+        "label": "Использование"
       },
       {
-        "id": "2-7",
-        "source": "2",
+        "id": "3-7",
+        "source": "3",
         "target": "7",
-        "label": "Используемые фреймворки"
+        "label": "Использование"
       },
       {
-        "id": "2-8",
-        "source": "2",
+        "id": "3-8",
+        "source": "3",
         "target": "8",
-        "label": "Используемые фреймворки"
+        "label": "Использование"
       },
       {
-        "id": "6-9",
-        "source": "6",
+        "id": "4-9",
+        "source": "4",
         "target": "9",
-        "label": "Функционал"
+        "label": "Использование"
       },
       {
-        "id": "6-10",
-        "source": "6",
+        "id": "4-10",
+        "source": "4",
         "target": "10",
-        "label": "Функционал"
+        "label": "Использование"
       },
       {
-        "id": "6-11",
-        "source": "6",
+        "id": "4-11",
+        "source": "4",
         "target": "11",
-        "label": "Функционал"
+        "label": "Использование"
       },
       {
-        "id": "7-12",
-        "source": "7",
+        "id": "5-12",
+        "source": "5",
         "target": "12",
-        "label": "Функционал"
+        "label": "Использование"
       },
       {
-        "id": "7-13",
-        "source": "7",
+        "id": "5-13",
+        "source": "5",
         "target": "13",
-        "label": "Функционал"
+        "label": "Использование"
       },
       {
-        "id": "7-14",
-        "source": "7",
+        "id": "5-14",
+        "source": "5",
         "target": "14",
-        "label": "Функционал"
-      },
-      {
-        "id": "8-15",
-        "source": "8",
-        "target": "15",
-        "label": "Функционал"
+        "label": "Использование"
       },
       
     ]
